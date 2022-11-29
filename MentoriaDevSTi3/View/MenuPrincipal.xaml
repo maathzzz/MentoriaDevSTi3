@@ -24,8 +24,25 @@
             <Label Content="Mentoria" Foreground="White" 
                    HorizontalContentAlignment="Center" 
                    VerticalContentAlignment="Center"
-                   FontWeight="Bold"/>
-            <!-- 16:00, módulo 2 - aula 1 -->       
+                   FontWeight="Bold" FontSize="20"/>
+
+            <Border Grid.Row="0" Style="{StaticResource BrdMenu}"/>
+
+            <Button Grid.Row="1" Content="Produtos" 
+                    Style="{StaticResource BtnMenu}"/>
+
+            <Border Grid.Row="1" Style="{StaticResource BrdMenu}"/>
+
+            <Button Grid.Row="2" Content="Clientes" 
+                    Style="{StaticResource BtnMenu}"/>
+            
+            <Border Grid.Row="2" Style="{StaticResource BrdMenu}"/>
+            
+            <Button Grid.Row="3" Content="Pedido" 
+                    Style="{StaticResource BtnMenu}"/>
+
+                    <Border Grid.Row="3" Style="{StaticResource BrdMenu}"/>
+            
         </Grid>
         
         
