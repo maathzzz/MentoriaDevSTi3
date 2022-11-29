@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="MentoriaDevSTi3.View.UserControls.UcProdutos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MentoriaDevSTi3.View.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#EBEBEB">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Label Content="Produtos" FontWeight="Bold" FontSize="20" Foreground="#032338"/>
+
+        <Border Style="{StaticResource BrdTituloTelas}" />
+
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel>
+                <Label Content="Nome" />
+                <TextBox />
+            </StackPanel>
+
+            <StackPanel Grid.Column="2">
+                <Label Content="Valor" />
+                <TextBox />
+            </StackPanel>
+
+            <Button Grid.Column="4"
+                    Content="Adicionar" Background="Green" Foreground="White"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,10"
+                    Height="25" Width="150"/>
+            
+            <!-- 13:00 módulo 2, aula 2-->
+
+        </Grid>
+
+    </Grid>
+</UserControl>

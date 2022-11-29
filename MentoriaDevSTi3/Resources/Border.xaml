@@ -7,4 +7,12 @@
         <Setter Property="BorderThickness" Value="0,0,0,1"/>
     </Style>
 
+    <Style x:Key="BrdTituloTelas" TargetType="Border">
+        <!-- Borda do Título Produtos -->
+        <Setter Property="BorderBrush" Value="#032338" />
+        <Setter Property="Margin" Value="5,0,5,0" />
+        <Setter Property="BorderThickness" Value="0,0,0,1" />
+    </Style>
+
+
 </ResourceDictionary>
